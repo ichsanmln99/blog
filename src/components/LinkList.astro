@@ -1,0 +1,47 @@
+---
+const links: Array<{ title: string; desc: string; href: string }> = [
+	{
+		title: "🃏 PokerPlan",
+		desc: "Membobot story dengan metode Planning Poker.",
+		href: "https://poker.ichsanmaulana.com",
+	},
+	{
+		title: "🍱 BentoGrids",
+		desc: "Referensi UI menggunakan style Bento",
+		href: "https://bentogrids.com/",
+	},
+	{
+		title: "👨‍🎨 Indofolio",
+		desc: "Kumpulan portofolio keren dari berbagai designer Indonesia",
+		href: "https://indofolio.framer.website/",
+	},
+	{
+		title: "🌼 DaisyUI",
+		desc: "Component Library keren dan populer untuk tailwind css",
+		href: "https://daisyui.com/",
+	},
+	{
+		title: "✨ Shadcn/ui",
+		desc: "Koleksi komponen UI re-useable yang cantik dan minimalis",
+		href: "https://ui.shadcn.com/",
+	},
+	{
+		title: "🎉 Component Party",
+		desc: "Bandingkan framework yang dipelajari dengan yang kamu kuasai",
+		href: "https://component-party.dev/",
+	},
+];
+---
+
+<ul class="space-y-4 sm:space-y-2">
+	{
+		links.map(({ href, title, desc }) => (
+			<li>
+				<a href={href} target="_blank" rel="noopener noreferrer" class="cactus-link inline-block">
+					{title}
+				</a>
+				:<p class="inline-block sm:mt-2">{desc}</p>
+			</li>
+		))
+	}
+</ul>
