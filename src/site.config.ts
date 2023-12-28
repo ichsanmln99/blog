@@ -26,7 +26,7 @@ export const siteConfig: SiteConfig = {
 };
 
 // Used to generate links in both the Header & Footer.
-export const menuLinks: Array<{ title: string; path: string }> = [
+export const menuLinks: Array<{ title: string; path: string; targetBlank: boolean }> = [
 	{
 		title: "Halaman Utama",
 		path: "/",
@@ -37,6 +37,7 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 	},
 	{
 		title: "Tentang Saya",
-		path: "https://ichsanmaulana.com",
+		path: "https://www.ichsanmaulana.com/about",
+		targetBlank: true,
 	},
 ];

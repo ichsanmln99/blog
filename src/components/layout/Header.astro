@@ -10,13 +10,13 @@ const url = new URL(Astro.request.url);
 	<div class="flex sm:flex-col">
 		<a
 			href="/"
-			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+			class="inline-flex items-center sm:relative sm:inline-block"
 			aria-current={url.pathname === "/" ? "page" : false}
 		>
 			<img
-				src="/astronaut.svg"
+				src="/icon.svg"
 				alt=""
-				class="me-3 h-6 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-14 sm:w-14"
+				class="me-3 h-6 w-6 sm:absolute sm:start-[-5rem] sm:me-0 sm:h-16 sm:w-16"
 				aria-hidden="true"
 			/>
 			<span class="text-xl font-bold sm:text-2xl">Ichsanspace</span>
@@ -33,6 +33,7 @@ const url = new URL(Astro.request.url);
 						class="px-4 py-4 sm:py-0 sm:hover:underline"
 						aria-current={url.pathname === link.path ? "page" : false}
 						data-astro-prefetch
+						target={link.targetBlank ? "_blank" : ""}
 					>
 						{link.title}
 					</a>
