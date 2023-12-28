@@ -2,7 +2,7 @@
 title: "Hatimu masih hati tikus"
 description: "Suatu hari ada seekor tikus yang hidupnya selalu tertekan karena selalu diincar oleh seekor kucing.
 Ia pergi ke seorang penyihir sakti untuk meminta tolong"
-publishDate: "10 Sept 2023"
+publishDate: "28 Dec 2023"
 tags: ["Inspirasi"]
 ---
 
@@ -19,6 +19,6 @@ Namun, sayangnya kali ini penyihir menolak dan berkata
 
 ## Epilogue
 
-Kebahagiaan dan kepercayaan diri enggak ditentukan oleh penampilan atau status, melainkan dari hati dan pikiran kita sendiri. Jika kita tidak pernah merasa puas dan selalu takut, maka kita tidak akan menemukan kedamaian.
+Cerita ini diambil dari salah satu buku yang saya baca, bisa kita simpulkan bahwa kebahagiaan dan kepercayaan diri enggak ditentukan oleh penampilan atau status, melainkan dari hati dan pikiran kita sendiri. Jika kita tidak pernah merasa puas dan selalu takut, maka kita tidak akan menemukan kedamaian.
 
 Lewati hari dengan bahagia tanpa harus menunggu untuk menjadi kucing, anjing atau singa terlebih dahulu.
